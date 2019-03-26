@@ -9,4 +9,14 @@ $(document).ready(function() {
       $("#walrus-showing").slideUp();
       $("#walrus-hidden").slideDown();
       });
+   $("button#dark").click(function() {
+     $("body").removeClass();
+      $("body").addClass("dark-background");
+    });
+
+    $("button#light").click(function() {
+      $("body").removeClass();
+      $("body").addClass("light-background");
+    });
+
 });

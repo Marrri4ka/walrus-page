@@ -23,3 +23,20 @@ img{
 .clickable2:hover {
   text-decoration: underline;
 }
+
+.dark{
+  background-color: black;
+  color:white;
+}
+.light{
+  background-color: white;
+  color: black;
+}
+.dark-background {
+  background-color: black;
+  color:white;
+}
+.light-background {
+  background-color: white;
+  color:black;
+}
